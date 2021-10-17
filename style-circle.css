@@ -1,0 +1,229 @@
+.circleContainer0{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+}
+.music{
+    position: absolute;
+    left: 5%;
+    top: 4%;
+    text-transform: uppercase;
+}
+.tech{
+    position: absolute;
+    left: 58%;
+    top: 4%;
+    text-transform: uppercase;
+}
+.eship{
+    position: absolute;
+    left: 70%;
+    top: 91%;
+    text-transform: uppercase;
+}
+.performance{
+    position: absolute;
+    left: 5%;
+    top: 91%;
+    text-transform: uppercase;
+}
+.circleContainer{
+    position: relative; 
+        left: 0; 
+        top: 0;
+    height: 615px;
+    width: 615px;
+    border: 5px solid black;
+    margin: 70px;
+    flex-grow:0;
+    flex-shrink:0;
+}
+
+.circle1{
+    border: 10px solid black;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 5px;
+    opacity: 100%;
+    position: absolute;
+      top: 12.5%;
+      left:12.5%;
+    height: 50%;
+    width: 50%;
+  }
+.circle2{
+    border: 10px solid black;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 5px;
+    opacity: 100%;
+    position: absolute;
+      top: 12.5%;
+      left:37.5%;
+    height: 50%;
+    width: 50%;
+  }
+.circle3{
+    border: 10px solid black;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 5px;
+    opacity: 100%;
+    position: absolute;
+      top: 37.5%;
+      left:12.5%;
+    height: 50%;
+    width: 50%;
+  }
+.circle4{
+    border: 10px solid black;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 5px;
+    opacity: 100%;
+    position: absolute;
+      top: 37.5%;
+      left:37.5%;
+    height: 50%;
+    width: 50%;
+  }
+
+.TL:hover ~ .circleNew1{
+    background-color: red;
+    border: 5px solid black;
+    opacity: 40%;
+}
+.TR:hover ~ .circleNew2{
+    background-color: green;
+    border: 5px solid black;
+    opacity: 40%;
+}
+.BL:hover ~ .circleNew3{
+    background-color: blue;
+    border: 5px solid black;
+    opacity: 40%;
+}
+.BR:hover ~ .circleNew4{
+    background-color: yellow;
+    border: 5px solid black;
+    opacity: 40%;
+}
+.circleNew1{
+    border-radius: 50%;
+    border-color: black;
+    border-width: 5px;
+    opacity: 100%;
+    position: absolute;
+      top: 12.5%;
+      left:12.5%;
+    height: 50%;
+    width: 50%;
+}
+.circleNew2{
+    border-radius: 50%;
+    border-color: black;
+    border-width: 5px;
+    opacity: 100%;
+    position: absolute;
+      top: 12.5%;
+      left:37.5%;
+    height: 50%;
+    width: 50%;
+}
+.circleNew3{
+    border-radius: 50%;
+    border-color: black;
+    border-width: 5px;
+    opacity: 100%;
+    position: absolute;
+      top: 37.5%;
+      left:12.5%;
+    height: 50%;
+    width: 50%;
+}
+.circleNew4{
+    border-radius: 50%;
+    border-color: black;
+    border-width: 5px;
+    opacity: 100%;
+    position: absolute;
+      top: 37.5%;
+      left:37.5%;
+    height: 50%;
+    width: 50%
+}
+/* start hover targets */
+.TL{
+    position: absolute;
+    top: 11.3%;
+    left: 10%;
+      width: 39%;
+      height: 39%;
+      border:10px solid black;
+    opacity: 0;
+  }
+.TL:hover{
+    position: absolute;
+    top: 11.3%;
+    left: 10.5%;
+      width: 39%;
+      height: 39%;
+    background:black;
+    opacity: 0%;
+  }
+.TR{
+    position: absolute;
+    top: 10.3%;
+    left: 50%;
+      width: 40%;
+      height: 40%;
+      border:10px solid black;
+    opacity: 0;
+  }
+.TR:hover{
+    position: absolute;
+    top: 11.3%;
+    left: 50%;
+      width: 39%;
+      height: 39%;
+    background:black;
+    opacity: 00%;
+  }
+.BL{
+    position: absolute;
+    top: 50.3%;
+    left: 10.5%;
+      width: 39%;
+      height: 39%;
+      border:1px solid black;
+    opacity: 0;
+  }
+.BL:hover{
+    position: absolute;
+    top: 50.3%;
+    left: 10.5%;
+      width: 39%;
+      height: 39%;
+    background:black;
+    opacity: 0%;
+  }
+.BR{
+    position: absolute;
+    top: 50%;
+    left: 49.5%;
+      width: 39%;
+      height: 39%;
+      border:1px solid black;
+    opacity: 0;
+  }
+.BR:hover{
+    position: absolute;
+    top: 50%;
+    left: 49.5%;
+      width: 39%;
+      height: 39%;
+    background:black;
+    opacity: 00%;
+  }
