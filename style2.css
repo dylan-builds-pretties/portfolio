@@ -13,12 +13,28 @@
     height: 80px;
     width: 100%;
   }
+  h3{
+    margin-bottom: 10px;
+  }
+  p{
+    margin-bottom: 10px;
+    font-size: larger;
+  }
+  a{
+    color: blue;
+  }
+  iframe{
+    margin: 10px;
+  }
   label.logo{
-    color: black;
+    color: white;
     font-size: 35px;
     line-height: 80px;
     padding: 0 50px;
     font-weight: bold;
+  }
+  label.logo a:visited{
+    color: black;
   }
   .vennContainer{
     display: flexbox;
@@ -86,7 +102,95 @@
   #check{
     display: none;
   }
+  .container_projects{
+    position: relative;
+    width:95%;
+    display:flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-wrap: wrap;
+    margin-left: 5%;
+  }
+  .container_projects .card{
+    position: relative;
+    max-width: 100%;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    background: none;
+    flex: 0 0 100%;
+  }
+  .container_projects .card .imgBx{
+    
+    margin-left: auto;
+    max-width: 50%;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+
+  }
+  .container_projects .card .imgBx img{
+    max-width: 50%;
+  }
+  .container_projects .card .content{
+    max-width: 50%;
+    margin-left: 20px;
+    margin-right: 10%;
+
+  }
+  .container_projects .card .contentDetail{
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 10%;
+  }
+
+  /* Responsive Code for Projects Container */
+  @media (max-width: 991px){
+    .container_projects
+    {
+      flex-direction: column;
+    }
+    .container_projects .card .contentDetail
+    {
+      max-width: 100%;
+     
+    }
+    .container_projects .card
+    {
+      flex-direction: column;
+      max-width: 100%;
+      min-width: 100%;
+    }
+  }
+  @media (max-width: 768px){
+    .container_projects
+    {
+      flex-direction: column;
+    }
+    .container_projects .card
+    {
+      flex-direction: column;
+      max-width: 100%;
   
+    }
+    .container_projects .card .imgBx
+    {
+      max-width: 100%;
+      margin-left: 20px;
+    }
+    .container_projects .card .imgBx img{
+      max-width: 90%;
+    }
+    .container_projects .card .content
+    {
+      max-width: 100%;
+    }
+    .container_projects .card .contentDetail
+    {
+      max-width: 100%;
+      
+    }
+  }
+
 
   /* Start Responsive Code */
   @media (max-width: 952px){
