@@ -70,12 +70,12 @@ function newPages(){
     window.open('music.html','_self');
   }
   else if(mouseX > width/2 && mouseY < height/2){
-    window.open('entrepreneurship.html','_self');
+    window.open('technology.html','_self');
   }
   else if(mouseX < width/2 && mouseY > height/2){
-    window.open('performance.html','_self');
+    window.open('entrepreneurship.html','_self');
   }
   else if(mouseX > width/2 && mouseY > height/2){
-    window.open('technology.html','_self');
+    window.open('performance.html','_self');
   }
 }
